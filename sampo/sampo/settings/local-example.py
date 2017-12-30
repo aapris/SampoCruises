@@ -3,6 +3,13 @@ local settings for sampo project.
 
 """
 
+# These must be set in production
+DEBUG = False  # Or True if you are debugging something
+SECRET_KEY = 'lajsdnfbalu7y4tou3jehgHGLj6GYU67(UI42#b*lfaahz_)n@'
+#ALLOWED_HOSTS = ['sampocruises.com', 'www.sampocruises.com']
+#STATIC_ROOT = '/site/sampocruises.com/www/static'
+#MEDIA_ROOT = '/site/sampocruises.com/www/media'
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
