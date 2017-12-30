@@ -2,6 +2,7 @@
 .idea/*
 .idea/vcs.xml
 
+local.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
